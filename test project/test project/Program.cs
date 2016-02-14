@@ -17,7 +17,8 @@ namespace test_project
         {
             //initial line of code
             Console.WriteLine("Hello World!\n");
-            StreamWriteLine();
+            
+            for(int i = 0; i < 100; i++) StreamWriteLine();
         }
     }
 }
