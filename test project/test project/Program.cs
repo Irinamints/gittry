@@ -25,6 +25,8 @@ namespace test_project
 
             //show collection keys
             Console.WriteLine(j);
+
+            Console.WriteLine("End program");
         }
     }
 }
