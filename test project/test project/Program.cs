@@ -11,6 +11,7 @@ namespace test_project
         static void Main(string[] args)
         {
             //initial line of code
+            Console.WriteLine("Hello World!\n");
         }
     }
 }
