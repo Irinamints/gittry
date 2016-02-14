@@ -12,6 +12,10 @@ namespace test_project
         {
             //initial line of code
             Console.WriteLine("Hello World!\n");
+
+            int j = 0;
+            for (int i = 0; i < 100; i++)
+                j = j + Console.Read();
         }
     }
 }
