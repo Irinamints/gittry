@@ -9,7 +9,7 @@ namespace test_project
     class Program
     {
         
-        void StreamWriteLine(){
+        static void StreamWriteLine(){
             Console.WriteLine("Ik hou van kou mijn Irina\n");
         }
         
@@ -18,7 +18,8 @@ namespace test_project
             //initial line of code
             Console.WriteLine("Hello World!\n");
             
-            for(int i = 0; i < 100; i++) StreamWriteLine();
+            for(int i = 0; i < 100; i++) 
+                StreamWriteLine();
 
             int j = 0;
             for (int i = 0; i < 100; i++)
