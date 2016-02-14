@@ -23,6 +23,7 @@ namespace test_project
                 j = j + Console.Read();
 
 
+            //show collection keys
             Console.WriteLine(j);
         }
     }
