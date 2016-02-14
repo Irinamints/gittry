@@ -10,7 +10,7 @@ namespace test_project
     {
         
         static void StreamWriteLine(){
-            Console.WriteLine("Ik hou van kou mijn Irina\n");
+            Console.WriteLine("Ik hou van jou mijn Irina\n");
         }
         
         static void Main(string[] args)
