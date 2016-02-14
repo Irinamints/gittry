@@ -21,6 +21,9 @@ namespace test_project
             int j = 0;
             for (int i = 0; i < 100; i++)
                 j = j + Console.Read();
+
+
+            Console.WriteLine(j);
         }
     }
 }
