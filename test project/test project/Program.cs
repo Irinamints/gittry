@@ -19,6 +19,10 @@ namespace test_project
             Console.WriteLine("Hello World!\n");
             
             for(int i = 0; i < 100; i++) StreamWriteLine();
+
+            int j = 0;
+            for (int i = 0; i < 100; i++)
+                j = j + Console.Read();
         }
     }
 }
